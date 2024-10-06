@@ -42,14 +42,15 @@ To view or modify the portfolio website, you will need the following:
 - A code editor (VSCode, Sublime Text, etc.)
 - Git (for version control)
 
-### Installation
-1. Clone the repository:
+ ### Installation
+ 1. Clone the repository:
    ```bash
    git clone https://github.com/KishorKudnar/portfolio.git
-2. Navigate to the project directory:
+ 2. Navigate to the project directory:
   ```bash
   cd portfolio
-3. Open the index.html file in your browser or a live server to view the portfolio.
+ 3. Open the index.html file in your browser or a live server to view the portfolio.
+
 
 ### Live Demo
 You can view the live version of my portfolio here. (Replace with actual link if hosted online)
