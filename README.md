@@ -4,11 +4,11 @@ Welcome to my personal portfolio website. This project showcases my skills, expe
 
 # Table of Contents
 
-- [Project Overview](#projectoverview)
-- [Features](feature)
-- [Technologies Used](#technologies)
+- [Project Overview](#project_overview)
+- [Features](features)
+- [Technologies Used](#technologies_used)
 - [Live Demo](#livedemo)
-- [Contact Information](#contact)
+- [Contact Information](#contact_information)
 - [License](#license)
 
 ## Project Overview
