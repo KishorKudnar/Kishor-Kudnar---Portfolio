@@ -4,6 +4,7 @@ Welcome to my personal portfolio website. This project showcases my skills, expe
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Screenshot](#screenshot)
 - [Live Demo](#live-demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -15,8 +16,12 @@ This portfolio website is a single-page application designed to present my skill
 
 The website is fully responsive, meaning it is optimized for both desktop and mobile devices. It uses HTML, CSS, and JavaScript to create a dynamic, easy-to-navigate interface.
 
+### Screenshot
+
+![Kishor Kudnar - Portfolio Screenshot](https://raw.githubusercontent.com/KishorKudnar/Kishor-Kudnar---Portfoliot/main/Portfolio.png)
+
 ### Live Demo
-![Kishor Kudnar - Portfolio Screenshot](https://raw.githubusercontent.com/KishorKudnar/Kishor-Kudnar---Portfoliot/main/Portfolio.png)<br>
+
 ![You can view the live version of my portfolio here.](https://raw.githubusercontent.com/KishorKudnar/Kishor-Kudnar---Portfolio/main/KishorKudnar-Portfolio.mp4)
 
 ## Features
