@@ -4,10 +4,9 @@ Welcome to my personal portfolio website. This project showcases my skills, expe
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Live Demo](#live-demo)
 - [Contact Information](#contact-information)
 - [License](#license)
 
@@ -15,6 +14,10 @@ Welcome to my personal portfolio website. This project showcases my skills, expe
 This portfolio website is a single-page application designed to present my skills, completed projects, and professional experience. The goal of this portfolio is to serve as an interactive, visually appealing resume for potential employers, clients, and collaborators.
 
 The website is fully responsive, meaning it is optimized for both desktop and mobile devices. It uses HTML, CSS, and JavaScript to create a dynamic, easy-to-navigate interface.
+
+### Live Demo
+![Kishor Kudnar---Portfolio Screenshot](https://github.com/KishorKudnar/Kishor Kudnar---Portfoliot/raw/main/Portfolio.png)
+![You can view the live version of my portfolio here.](https://raw.githubusercontent.com/KishorKudnar/Kishor Kudnar---Portfolio/main/Kishor Kudnar-Portfolio.mp4)
 
 ## Features
 - **Responsive Design**: Works on various screen sizes, including desktops, tablets, and mobile devices.
@@ -34,26 +37,12 @@ The following technologies and tools were used to create this project:
 - **Font Awesome**: For social media icons.
 - **Git**: For version control and collaboration.
   
-## Setup and Installation
 
 ### Prerequisites
 To view or modify the portfolio website, you will need the following:
 - A web browser (Google Chrome, Firefox, etc.)
 - A code editor (VSCode, Sublime Text, etc.)
 - Git (for version control)
-
- ### Installation
- 1. Clone the repository:
-   ```bash
-   git clone https://github.com/KishorKudnar/portfolio.git
- 2. Navigate to the project directory:
-  ```bash
-  cd portfolio
- 3. Open the index.html file in your browser or a live server to view the portfolio.
-
-
-### Live Demo
-You can view the live version of my portfolio here. (Replace with actual link if hosted online)
 
 ### Contact Information
 Feel free to reach out if you have any questions or job opportunities.
@@ -65,3 +54,14 @@ LinkedIn: Kishor Kudnar
 ### License
 
 This content is ready for you to directly copy and paste into the `README.md` file on GitHub for your portfolio project. You can update the live demo link if needed.
+
+ ### Installation
+ 1. Clone the repository:
+   ```bash
+   git clone https://github.com/KishorKudnar/portfolio.git
+ 2. Navigate to the project directory: 
+  ```bash
+  cd portfolio
+ 3. Open the index.html file in your browser or a live server to view the portfolio.
+
+
