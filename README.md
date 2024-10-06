@@ -16,8 +16,8 @@ This portfolio website is a single-page application designed to present my skill
 The website is fully responsive, meaning it is optimized for both desktop and mobile devices. It uses HTML, CSS, and JavaScript to create a dynamic, easy-to-navigate interface.
 
 ### Live Demo
-![Kishor Kudnar---Portfolio Screenshot](https://github.com/KishorKudnar/Kishor Kudnar---Portfoliot/raw/main/Portfolio.png)
-![You can view the live version of my portfolio here.](https://raw.githubusercontent.com/KishorKudnar/Kishor Kudnar---Portfolio/main/Kishor Kudnar-Portfolio.mp4)
+![Kishor Kudnar---Portfolio Screenshot](https://github.com/KishorKudnar/Kishor-Kudnar---Portfoliot/raw/main/Portfolio.png)
+![You can view the live version of my portfolio here.](https://raw.githubusercontent.com/KishorKudnar/Kishor-Kudnar---Portfolio/main/KishorKudnar-Portfolio.mp4)
 
 ## Features
 - **Responsive Design**: Works on various screen sizes, including desktops, tablets, and mobile devices.
