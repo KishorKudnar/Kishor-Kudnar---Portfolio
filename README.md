@@ -18,7 +18,8 @@ The website is fully responsive, meaning it is optimized for both desktop and mo
 
 ### Screenshot
 
-![Kishor Kudnar - Portfolio Screenshot](https://raw.githubusercontent.com/KishorKudnar/Kishor-Kudnar---Portfoliot/main/Portfolio.png)
+![Kishor Kudnar - Portfolio Screenshot](https://raw.githubusercontent.com/KishorKudnar/Kishor-Kudnar---Portfolio/main/Portfolio.png)
+
 
 ### Live Demo
 
