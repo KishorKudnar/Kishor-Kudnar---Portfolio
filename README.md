@@ -4,13 +4,12 @@ Welcome to my personal portfolio website. This project showcases my skills, expe
 
 # Table of Contents
 
-Project Overview
-Features
-Technologies Used
-Folder Structure
-Live Demo
-Contact Information
-License
+- [Project Overview](#projectoverview)
+- [Features](feature)
+- [Technologies Used](#technologies)
+- [Live Demo](#livedemo)
+- [Contact Information](#contact)
+- [License](#license)
 
 ## Project Overview
 This portfolio website is a single-page application designed to present my skills, completed projects, and professional experience. The goal of this portfolio is to serve as an interactive, visually appealing resume for potential employers, clients, and collaborators.
