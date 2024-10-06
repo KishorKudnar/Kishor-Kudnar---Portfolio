@@ -1,0 +1,448 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* Importing a stylish font for the logo */
+
+/* Universal Styles */
+* {
+    background-color: #f4f4f4; /* Setting a light grey background for the whole page */
+    font-family: "Ubuntu", sans-serif; /* Using the Ubuntu font for text */
+}
+
+/* Keyframes for Disco Animation */
+@keyframes disco {
+    0% {
+        color: red; /* Starting color */
+    }
+    20% {
+        color: yellow; /* Transition color */
+    }
+    40% {
+        color: blue; /* Transition color */
+    }
+    60% {
+        color: green; /* Transition color */
+    }
+    80% {
+        color: purple; /* Transition color */
+    }
+    100% {
+        color: orange; /* Ending color */
+    }
+}
+
+/* Logo Styles */
+.logo {
+    height: 50px; /* Height of the logo */
+    width: 180px; /* Width of the logo */
+    border-radius: 12px; /* Rounded corners */
+    border: 1.8px solid rgb(176, 35, 115); /* Border styling */
+    font-size: 30px; /* Font size for logo text */
+    font-family: "Pacifico", cursive; /* Stylish font for logo */
+    font-weight: bold; /* Bold font weight */
+    text-align: center; /* Centering text */
+    margin-top: 0px; /* Top margin */
+    animation: disco 1.5s infinite; /* Applying the disco animation */
+    transition: color 0.5s ease-in-out; /* Smooth color transition */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
+    letter-spacing: 5px; /* Space between letters */
+    cursor: pointer;
+}
+
+/* Navigation List Styles */
+ul {
+    list-style-type: none; /* Removing default bullet points */
+    display: flex; /* Using flexbox for layout */
+    gap: 30px; /* Space between list items */
+    color: rgb(176, 35, 115); /* Text color */
+    font-size: large; /* Font size */
+    font-weight: 600; /* Font weight */
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex; /* Flexbox for navigation */
+    align-items: center; /* Center items vertically */
+    justify-content: space-around; /* Space items evenly */
+    gap: 400px; /* Space between logo and nav items */
+    margin-top: 20px; /* Top margin */
+}
+
+
+/* Link Styles in Navigation */
+nav ul li a {
+    text-decoration: none; /* Removing underline from links */
+    color: rgb(176, 35, 115); /* Link color */
+    font-weight: 600; /* Font weight */
+    font-size: large; /* Font size */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color */
+    padding: 10px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover Effect for Links */
+nav ul li a:hover {
+    color: white; /* Change text color on hover */
+    background-color: rgb(176, 35, 115); /* Change background color on hover */
+}
+
+/* Smooth Scrolling for Navigation */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+
+/* Intro Section Styles */
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.intro {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.intro img {
+    height: 350px;
+    width: 350px;
+    border: 3px solid rgb(222, 170, 101);
+    border-radius: 80px 0 0 80px;
+    margin-right: 30px;
+}
+
+/* Text Styles */
+.int h1 {
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.int p {
+    margin: 10px 25px;
+}
+
+/* Button Styles */
+.int button {
+    background-color: rgb(176, 35, 115);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 0px 0px 60px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: rgb(200, 60, 130);
+    transform: scale(1.05);
+}
+
+/* Styling for Social Media Section */
+.second {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    padding: 40px 0; /* Padding above and below */
+    background-color: #f4f4f4; /* Background color */
+    
+}
+
+.social-content {
+    text-align: center; /* Centering text */
+}
+
+.social-content h2 {
+    font-size: 2rem; /* Font size for heading */
+    color: #b02373; /* Heading color */
+    letter-spacing: 2px; /* Space between letters */
+    text-transform: uppercase; /* Uppercase letters */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.social-icons {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center icons horizontally */
+    gap: 30px; /* Space between icons */
+    padding-top: 10px; 
+}
+
+/* Social Media Icon Styles */
+.icon {
+    height: 40px; /* Height of icons */
+    width: 40px; /* Width of icons */
+    border: 2px solid #b02373;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover Effect for Social Media Icons */
+.icon:hover {
+    transform: scale(1.2); /* Scale up icon on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* General Section Styling */
+section {
+    padding: 60px 20px; /* Padding for sections */
+    background-color: #f4f4f4; /* Background color */
+    margin: 50px 0; /* Margin around sections */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Heading Styles for Sections */
+section h2 {
+    font-size: 2.5rem; /* Font size for section headings */
+    color: #b02373; /* Heading color */
+    text-align: center; /* Center heading */
+    margin-bottom: 40px; /* Space below heading */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 3px; /* Space between letters */
+    position: relative; /* Relative positioning for after pseudo-element */
+}
+
+/* Decorative Line Under Section Headings */
+section h2::after {
+    content: ""; /* Empty content for the line */
+    width: 50px; /* Width of the line */
+    height: 4px; /* Height of the line */
+    background-color: #b02373; /* Color of the line */
+    position: absolute; /* Absolute positioning */
+    bottom: -10px; /* Positioning below the heading */
+    left: 50%; /* Center the line */
+    transform: translateX(-50%); /* Center align the line */
+}
+
+/* Styles for Skills List */
+.skill-list {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 30px; /* Space between skill items */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+}
+
+/* Individual Skill Item Styles */
+.skill-item {
+    background-color: #fff; /* Background color for skill items */
+    border: 2px solid #b02373; /* Border styling */
+    padding: 20px 30px; /* Padding for skill items */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1.2rem; /* Font size */
+    color: #333; /* Text color */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Hover Effect for Skill Items */
+.skill-item:hover {
+    transform: translateY(-10px); /* Move up on hover */
+}
+
+/* Styles for Project List */
+.project-list {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 50px; /* Space between project items */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+}
+
+/* Individual Project Item Styles */
+.project-item {
+    width: 300px; /* Fixed width for project items */
+    padding: 30px; /* Padding for project items */
+    background-color: #fff; /* Background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect for Project Items */
+.project-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Project Title Styles */
+.project-item h3 {
+    font-size: 1.8rem; /* Font size for project titles */
+    color: #b02373; /* Title color */
+    margin-bottom: 10px; /* Space below title */
+}
+
+/* Project Description Styles */
+.project-item p {
+    font-size: 1rem; /* Font size for project descriptions */
+    color: #555; /* Description color */
+}
+
+/* Styles for Experience Section */
+
+.experience-content {
+    background-color: #fff; /* Background color */
+    padding: 30px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    font-size: 1.2rem; /* Font size */
+    color: #555; /* Text color */
+    
+}
+
+/* Styles for Contact Details */
+.contact-details {
+    text-align: center; /* Center text */
+    font-size: 1.2rem; /* Font size */
+    color: #555; /* Text color */
+}
+
+/* Link Styles in Contact Details */
+.contact-details a {
+    color: #b02373; /* Link color */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover Effect for Links in Contact Details */
+.contact-details a:hover {
+    color: #000; /* Change color on hover */
+}
+
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(135deg, #b02373, #6a1b9a); /* Gradient background for footer */
+    color: rgb(0, 0, 0); /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Padding for spacing */
+    font-size: 1rem; /* Font size for text */
+    position: relative; /* Positioning context */
+    bottom: 0; /* Align to the bottom */
+    width: 100%; /* Full width */
+}
+
+/* Footer Paragraph Styles */
+.footer p {
+    margin: -10px 10px 0px 10px; /* Remove default margin */
+    letter-spacing: 1px; /* Space between letters for readability */
+}
+
+/* Footer Copyright Symbol */
+.footer p::before {
+    content: "© "; /* Copyright symbol */
+}
+
+/* Hover Effect for Footer Paragraph */
+.footer p:hover {
+    color: #ff01ea; /* Subtle color change on hover */
+}
+
+/* Optional: Add a border at the top of the footer */
+.footer::before {
+    content: ''; /* Empty content for the border */
+    display: block; /* Display as a block */
+    width: 100%; /* Full width */
+    height: 2px; /* Height of the border */
+    background: #b02373; /* Color of the border */
+    margin-bottom: 10px; /* Space between the border and text */
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+    /* Navigation adjustments */
+    nav {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Space between items */
+    }
+
+    .logo {
+        margin-bottom: 20px; /* Space below the logo */
+        font-size: 24px; /* Smaller logo font size */
+    }
+
+    /* Intro section adjustments */
+    .intro {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center items */
+        padding: 20px; /* Reduced padding */
+    }
+
+    .intro img {
+        height: 200px; /* Smaller profile image */
+        width: 200px; /* Smaller profile image */
+        margin-right: 0; /* Remove margin */
+        border-radius: 50%; /* Make the image circular */
+    }
+
+    .int h1 {
+        font-size: 24px; /* Smaller heading */
+    }
+
+    .int p {
+        font-size: 14px; /* Smaller paragraph text */
+    }
+
+    /* Button adjustments */
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center buttons */
+    }
+
+    button {
+        width: 100%; /* Full width buttons */
+        margin: 10px 0; /* Space between buttons */
+    }
+
+    /* Skills and Project list adjustments */
+    .skill-list, .project-list {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    /* Footer adjustments */
+    .footer {
+        font-size: 0.9rem; /* Smaller footer font size */
+        padding: 15px 0; /* Adjust footer padding */
+    }
+}
+
+/* Laptop Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        gap: 50px; /* Reduced space between items */
+    }
+
+    .logo {
+        font-size: 28px; /* Adjusted logo font size */
+    }
+
+    .intro {
+        padding: 40px; /* Increased padding */
+    }
+
+    .intro img {
+        height: 300px; /* Adjusted image size */
+        width: 300px; /* Adjusted image size */
+    }
+
+    .int h1 {
+        font-size: 26px; /* Adjusted heading size */
+    }
+
+    .int p {
+        font-size: 15px; /* Adjusted paragraph size */
+    }
+
+    button {
+        padding: 12px 20px; /* Adjust button padding */
+    }
+
+    .skill-list, .project-list {
+        flex-direction: row; /* Row layout for larger screens */
+    }
+}
